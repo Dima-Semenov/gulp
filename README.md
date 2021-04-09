@@ -1,2 +1,2 @@
-  - npm run start - запускає проект
-  - npm run build - запускає сборку проекта
+  - npm run start - start project
+  - npm run build - build project
