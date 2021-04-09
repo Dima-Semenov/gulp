@@ -164,6 +164,8 @@ body {
 
 .catalog__input {
   margin-right: 10px;
+  width: 18px;
+  height: 18px;
 }
 
 .catalog__price {
