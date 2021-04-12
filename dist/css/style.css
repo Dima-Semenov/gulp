@@ -5,9 +5,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
 }
 
 body {
