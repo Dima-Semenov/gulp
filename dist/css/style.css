@@ -1,3 +1,151 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: silver;
+  background-color: #102250;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 100px 15px 0 15px;
+}
+
+.container__title {
+  font-size: 24px;
+}
+
+.container__wrap {
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.container__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.container__input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid silver;
+  background-color: #F5F8FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.container__input:first-child {
+  margin-top: 0;
+}
+
+.container__password {
+  padding-right: 0;
+}
+
+.container__label {
+  padding: 5px 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.container__select {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid silver;
+  background-color: #F5F8FA;
+  outline: none;
+  padding: 5px 10px 5px 40px;
+  margin: 15px 0;
+}
+
+.container__option {
+  text-align: center;
+}
+
+.container__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.container__policy {
+  padding-top: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.container__btn {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #A2A2A2;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.container__checkbox {
+  border: 1px solid red;
+}
+
+.container__link {
+  text-decoration: none;
+  color: #0094FF;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #F5F8FA;
+  padding-right: 10px;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.warning {
+  font-size: 12px;
+  height: 10px;
+  text-align: left;
+  color: red;
+  visibility: hidden;
 }
